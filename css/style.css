@@ -1,0 +1,481 @@
+*{
+    margin: 1;
+    padding: 1;
+}
+body a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+body span{
+    text-decoration: none;
+    font-weight: bold;
+}
+body p{
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar{
+    display: block;
+    margin: 2px;
+    background-color: rgb(8, 152, 209);
+}
+
+.title-wrap{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: content;
+    float: inline-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+}
+.avatar-image{
+    border-radius: 100%;
+    margin: 20px;
+    
+
+}
+.avatar-image:hover{
+    border-radius: 100%;
+    margin: 20px;
+    transform: rotate(360deg);
+    transition: all ease 14s;
+
+}
+
+.avatar-class span{
+    border: 1px transparent;
+    border-radius: 17px;
+    background-color: white;
+    line-height: 30px;
+    color: rgb(0, 214, 252);
+    text-align: center;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.text-large-area{
+    color: rgb(51, 207, 255);
+    border-radius: 10px;
+    
+    line-height: 60px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+   font-weight: 1000;
+  
+   flex-wrap: wrap;
+   display: flex;
+   border-width: 20px;
+}
+.small-text{
+    border: transparent;
+    border-radius: 5px;
+    background-color: rgb(0, 174, 197);
+    line-height: 50px;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.small-text:hover{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    line-height: 50px;
+    color: rgb(53, 215, 255);
+    transition: all ease .5s;
+    text-align: center;
+    
+    
+}
+.floating-image{
+    border-radius: 60%;
+    background-color: white;
+    width: 280px;
+    align-items: center;
+    justify-content: center;
+    height: 280px;
+    margin-top: -80px;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.floating-image:hover{
+    transform: rotate(360deg);
+    transition: all ease 10s;
+    
+}
+.image-role{
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    
+}
+.image-role:hover{
+    
+}
+/*--about section--*/
+.about-image-division{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(8, 188, 243);
+    border-radius: 10px;
+}
+.about-image-division:hover{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 1px transparent;
+    border-radius: 10px;
+    background-color: rgb(22, 187, 252);
+    transition: all ease-in .6s;
+}
+.about-image{
+    width: 100px;
+    border-radius: 100%;
+    margin-left: 60px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    top: -30px;
+}
+.span-area{
+    border: 1px transparent;
+    border-radius: 17px;   
+    line-height: 30px;
+    color: rgb(0, 214, 252);
+    
+    font-size: 34px;
+    font-weight: bolder;
+    
+    
+    
+    
+    
+}
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+.big-image-area{
+    width: 440px;
+    height: 350px;
+    border-radius: 20px;
+    float: left;
+   align-items: center;
+   justify-content: center;
+    
+}
+.about-text-area{
+   
+   width: 440px;
+   height: 250px;
+   align-items: center;
+   justify-content: center;
+   float: right;
+   font-weight: light;
+   border-radius: 20px;
+}
+/*--information area--*/
+
+.profile-thumb{
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    font-size: large;
+    font-weight: bold;
+    
+    
+}
+.profile-body{
+    border: 1px solid rgb(15, 190, 243);
+    border-radius: 20px;
+   
+    
+}
+.profile-info{
+    font-size: 35px;
+    font-weight: bold;
+}
+/*--services--*/
+.flex-image{
+    width: 120px;
+    height: 120px;
+    border: transparent;
+    border-radius: 100%;
+    background-color: rgb(164, 233, 245);
+}
+.service-image{
+    border: transparent;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    background-color: rgb(0, 80, 117);
+}
+.service-p{
+    font-weight: bolder;
+    font-size: x-large;
+    margin: 12px;
+    color: white;
+    
+}
+.service-list{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
+.row{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    float: right;
+}
+.contact-info{
+   
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 320px;
+}
+.row-section{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    
+}
+.form-area{
+   height: 320px;
+}
+strong{
+    font-size:xx-large;
+}
+.form-control1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 4px;
+    display: inline;
+    
+}
+.form-control1:hover{
+    background-color: rgb(1, 145, 212);
+    transition: all ease .5s;
+}
+.form-control2{
+    height: 120px;
+    width: 100%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 600px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
